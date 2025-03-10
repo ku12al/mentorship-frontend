@@ -15,6 +15,7 @@ import { LiaLaptopCodeSolid } from "react-icons/lia";
 import { HiOutlineCalendar } from "react-icons/hi2";
 import { RiFileUserLine } from "react-icons/ri";
 import { FaComputer } from "react-icons/fa6";
+import { TiTick } from "react-icons/ti";
 
 const benefits = [
   {
@@ -188,7 +189,7 @@ const DigitalArtCourse = () => {
         <h2 className="text-[22px] font-semibold bg-gradient-to-r from-blue-700 via-purple-700 to-pink-600 text-transparent bg-clip-text text-center">
           With This Course, You Get:
         </h2>
-        <ul className="pl-4 grid grid-cols-1 md:grid-cols-2 gap-5 w-[94%] mt-10">
+        <ul className="pl-4 grid grid-cols-1 md:grid-cols-1 gap-5 w-[94%] mt-10">
           {benefits.map((item, index) => (
             <div
               key={index}
@@ -266,7 +267,7 @@ const DigitalArtCourse = () => {
           </h2>
         </div>
         <div className="text-left w-[98%] ml-2">
-          <ul className="pl-4 grid grid-cols-1 md:grid-cols-2 gap-5 w-[94%] mt-10">
+          <ul className="pl-4 grid grid-cols-1 md:grid-cols-1 gap-5 w-[94%] mt-10">
             {field.map((item, index) => (
               <div
                 key={index}
@@ -288,23 +289,26 @@ const DigitalArtCourse = () => {
         Enroll Now for ₹7,999
       </h1>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4 font-[500] w-[90%] mx-auto">
-        <div className="w-full text-black py-2 rounded-full text-[14px] border-1 border-blue-100 flex">
-          <h1 className="ml-15">Secure Your Spot for Just ₹79</h1>
+      <div className="grid grid-cols-1 md:grid-cols-1 gap-4 font-[500] w-[90%] mx-auto">
+        <div className="w-full text-black py-2 rounded-full text-[15px] border-1 border-blue-100 flex justify-center">
+          <h1 className="mr-8">Secure Your Spot for Just ₹79</h1>
         </div>
-        <div className="w-full text-black rounded-full text-[15px] border-1 border-blue-100 flex">
-          <h1 className="ml-10">Bonus Offer: Apply a coupon code within 15 minutes to unlock:</h1>
+        <div className="w-full text-black py-2 rounded-full text-[15px] border-1 border-blue-100 relative">
+          <h1 className=" ml-16">
+            Bonus Offer: Apply a coupon code within 15 minutes to unlock:
+          </h1>
         </div>
-        <div className="w-full text-black py-2 rounded-full text-[14px] border-1 border-blue-100 flex">
-          <h1 className="ml-15">Exclusive Brush & Texture Pack</h1>
+        <div className="w-full text-black py-2 rounded-full text-[14px] border-1 border-blue-100 flex justify-center">
+          <h1 className="mr-11">Exclusive Brush & Texture Pack</h1>
         </div>
-        <div className="w-full text-black py-2 rounded-full text-[14px] border-1 border-blue-100 flex">
-          <h1 className="ml-15"> Extra Live Q&A Session with Mentors</h1>
+        <div className="w-full text-black py-2 rounded-full text-[14px] border-1 border-blue-100 flex justify-center">
+          <h1 className="mr-1"> Extra Live Q&A Session with Mentors</h1>
         </div>
       </div>
 
       <h1 className="text-[15px] font-semibold w-[98%] flex ml-10 mt-8">
-        WE Offer everything you need at ₹7,999-but wait...<PiEyesFill />
+        WE Offer everything you need at ₹7,999-but wait...
+        <PiEyesFill />
       </h1>
 
       <div className="w-[90%] mx-auto bg-gradient-to-r from-[#f9e5f6] via-pink-50 to-[#d9f9f9] flex justify-center items-center p-2 rounded-lg">
@@ -314,166 +318,192 @@ const DigitalArtCourse = () => {
         </h1>
       </div>
 
-      <button className="w-[70%] bg-gradient-to-r from-blue-600 via-purple-500 to-[#ff0caae0] text-white px-6 py-2 rounded-[8px] font-semibold text-[20px] mt-8">
+      <button className="w-[55%] bg-gradient-to-r from-blue-800 via-blue-600 to-pink-500 text-white px-4 p-2 rounded-[10px] font-semibold text-[18px] mt-2">
         Book Now at ₹79
       </button>
 
       {/* FAQs Section */}
-      <div className="text-center space-y-4 mt-8 w-[90%] mx-auto">
-        <h2 className="text-[32px] font-bold text-gray-800 bg-clip-text">
+      <div className="text-center space-y-4 mt-8 w-[80%] mx-auto">
+        <h2 className="text-[24px] font-[500] text-gray-900 bg-clip-text">
           FAQs
         </h2>
         <div className="space-y-2 text-left">
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: Who is this course for?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li className="text-left">
-              This course is perfect for beginners, hobbyists, and aspiring
-              digital artists who want to learn digital illustration from
-              scratch.No prior experience required!
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                This course is perfect for beginners, hobbyists, and aspiring
+                digital artists who want to learn digital illustration from
+                scratch.No prior experience required!
+              </p>
+            </div>
           </p>
-          <br />
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: What tools do I need to take this course?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              You'll need: A tablet (iPad, Wacom, or any drawing tablet),
-              Digital art software (Procreate, Photoshop, or Krita), and a
-              passion for creativity.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <ul className="text-left text-[14px] font-[500] mt-1">
+                You'll need:
+                <li className="flex text-[14px]"><TiTick className="text-[20px] text-[#515050]"/>A tablet (iPad, Wacom, or any drawing tablet),</li>
+                <li className="flex text-[14px]"><TiTick className="text-[20px] text-[#515050]"/>Digital art software (Procreate, Photoshop, or Krita),</li>
+                <li className="flex text-[14px]"><TiTick className="text-[20px] text-[#515050]"/>A passion for creativity.</li>
+              </ul>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: How long is the course?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li className="flex justify-between">
-              The course runs for 4 weeks, covering everything from sketching to
-              advanced digital painting techniques.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                The course runs for 4 weeks, covering everything from sketching
+                to advanced digital painting techniques.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: Is this a live or recorded course?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              The course includes both pre-recorded lessons and live Q&A
-              sessions with industry experts.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                The course includes both pre-recorded lessons and live Q&A
+                sessions with industry experts.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: Will I receive a certificate?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              Yes! After completing the course, you'll receive a Certificate of
-              Completion to boost your portfolio and career opportunities.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                Yes! After completing the course, you'll receive a Certificate
+                of Completion to boost your portfolio and career opportunities.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
-              Q: Can I monetize my digital art after this course?{" "}
+            <strong className="flex justify-between font-[600] text-[14px]">
+              Q: Can I monetize my digital art after this course?
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              {" "}
-              Absolutely! The course includes a bonus session on freelancing &
-              selling your art so you can start earning right away.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                {" "}
+                Absolutely! The course includes a bonus session on freelancing &
+                selling your art so you can start earning right away.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: What happens if I miss a live session?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              No worries! All live sessions will be recorded and uploaded for
-              later viewing.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                No worries! All live sessions will be recorded and uploaded for
+                later viewing.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: How do I apply the coupon code?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              Once you sign up, you'll get 15 minutes to enter a valid coupon
-              code to unlock exclusive bonuses.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                Once you sign up, you'll get 15 minutes to enter a valid coupon
+                code to unlock exclusive bonuses.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: What if I don't have a tablet?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              You can still take the course using a mouse & free digital art
-              software (like Krita), though a tablet is recommended.
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                You can still take the course using a mouse & free digital art
+                software (like Krita), though a tablet is recommended.
+              </p>
+            </div>
           </p>
-          <br />
-
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: Is there a refund policy?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              {" "}
-              The ₹79 booking fee is non-refundable, but we're confident you'll
-              love the course!
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                {" "}
+                The ₹79 booking fee is non-refundable, but we're confident
+                you'll love the course!
+              </p>
+            </div>
           </p>
-          <br />
+          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
 
           <p>
-            <strong className="flex justify-between">
+            <strong className="flex justify-between font-[600] text-[14px]">
               Q: How do I enroll?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <li>
-              Click the "Enroll Now" button, make the payment, and get instant
-              access to the course materials!
-            </li>
+            <div className="flex grid-cols-2">
+              <li className="text-black text-[20px] font-bold mt-0 p-0" />
+              <p className="text-left text-[13px] font-[500] mt-1">
+                Click the "Enroll Now" button, make the payment, and get instant
+                access to the course materials!
+              </p>
+            </div>
           </p>
         </div>
       </div>
 
-      <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-6 py-2 rounded-lg font-bold text-[15px] w-[60%]">
+      <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-4 py-2 rounded-lg font-semibold text-[14px] w-[50%] mt-10">
         Let's Get Started
       </button>
 
-      <h1 className="font-bold text-black text-3xl">
+      <h1 className="font-bold text-black text-[22px] mx-auto w-[85%] mt-10">
         Ready to Start Your Digital Art Journey?
       </h1>
 
-      <h2 className="font-semibold text-black text-[18px]">
+      <h2 className="font-semibold text-black text-[16px]">
         Click below to secure your spot & start creating!
       </h2>
 
       {/* CTA Section */}
-      <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-6 py-2 rounded-lg w-[60%] font-bold text-[15px]">
+      <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-6 py-2 rounded-lg w-[50%] font-bold text-[15px] mb-8">
         Enroll Now
       </button>
     </div>
