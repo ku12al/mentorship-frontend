@@ -117,8 +117,11 @@ const field = [
 const DigitalArtCourse = () => {
   return (
     <div className="max-w-[28rem] h-screen text-center space-y-4 absolute left-0 ">
-      <div className="flex justify-end mr-6 mt-2">
-        <div className="w-[45%] flex justify-center item-center rounded-full bg-gradient-to-r from-blue-600 to-pink-500">
+      <div className="flex justify-between mr-6 mt-1">
+        <div className="ml-5">
+          <img src="/Screenshot 2025-03-11 114802.png" alt="" className="w-[90%]"/>
+        </div>
+        <div className="w-[40%] flex justify-center item-center rounded-full bg-gradient-to-r from-blue-700 to-pink-500">
           <button className="font-semibold text-[18px] text-white my-1 ">
             Get Start
           </button>
@@ -127,7 +130,7 @@ const DigitalArtCourse = () => {
       <br />
       <br />
       {/* Header Section */}
-      <h2 className="w-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-400 text-transparent bg-clip-text text-3xl font-bold ">
+      <h2 className="w-full bg-gradient-to-r from-blue-600 via-purple-600 to-pink-500 text-transparent bg-clip-text text-3xl font-bold ">
         Master the Art of Digital Illustration
       </h2>
       <p className="text-[#3c3939] font-bold text-lg">
