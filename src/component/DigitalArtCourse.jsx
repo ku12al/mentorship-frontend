@@ -323,19 +323,19 @@ const DigitalArtCourse = () => {
       </button>
 
       {/* FAQs Section */}
-      <div className="text-center space-y-4 mt-8 w-[80%] mx-auto">
+      <div className="text-center space-y-4 mt-8 w-full mx-auto">
         <h2 className="text-[24px] font-[500] text-gray-900 bg-clip-text">
           FAQs
         </h2>
-        <div className="space-y-2 text-left">
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+        <div className="space-y-2 text-left w-[90%] mx-auto">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: Who is this course for?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
             <div className="flex grid-cols-2">
               <li className="text-black text-[20px] font-bold mt-0 p-0" />
-              <p className="text-left text-[13px] font-[500] mt-1">
+              <p className="text-left text-[14px] font-[500] mt-1">
                 This course is perfect for beginners, hobbyists, and aspiring
                 digital artists who want to learn digital illustration from
                 scratch.No prior experience required!
@@ -343,8 +343,8 @@ const DigitalArtCourse = () => {
             </div>
           </p>
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: What tools do I need to take this course?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -357,10 +357,10 @@ const DigitalArtCourse = () => {
                 <li className="flex text-[14px]"><TiTick className="text-[20px] text-[#515050]"/>A passion for creativity.</li>
               </ul>
             </div>
-          </p>
+          </p >
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: How long is the course?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -373,8 +373,8 @@ const DigitalArtCourse = () => {
             </div>
           </p>
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: Is this a live or recorded course?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -387,8 +387,8 @@ const DigitalArtCourse = () => {
             </div>
           </p>
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: Will I receive a certificate?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -401,8 +401,8 @@ const DigitalArtCourse = () => {
             </div>
           </p>
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: Can I monetize my digital art after this course?
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -416,8 +416,8 @@ const DigitalArtCourse = () => {
             </div>
           </p>
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: What happens if I miss a live session?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -430,8 +430,8 @@ const DigitalArtCourse = () => {
             </div>
           </p>
           <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: How do I apply the coupon code?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -443,9 +443,9 @@ const DigitalArtCourse = () => {
               </p>
             </div>
           </p>
-          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <div className="w-[95%] border-1 text-gray-300 mt-8"/>
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: What if I don't have a tablet?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
@@ -457,13 +457,13 @@ const DigitalArtCourse = () => {
               </p>
             </div>
           </p>
-          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <div className="w-[95%] border-1 text-gray-300 mt-8"/>
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: Is there a refund policy?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <div className="flex grid-cols-2">
+            <div className="flex grid-cols-2 mt-5">
               <li className="text-black text-[20px] font-bold mt-0 p-0" />
               <p className="text-left text-[13px] font-[500] mt-1">
                 {" "}
@@ -472,14 +472,14 @@ const DigitalArtCourse = () => {
               </p>
             </div>
           </p>
-          <div className="w-[95%] border-1 text-gray-300 mt-6"/>
+          <div className="w-[95%] border-1 text-gray-300 mt-8"/>
 
-          <p>
-            <strong className="flex justify-between font-[600] text-[14px]">
+          <p className="w-[90%] mx-auto">
+            <strong className="flex justify-between font-[600] text-[15px]">
               Q: How do I enroll?{" "}
               <FaChevronDown className="mx-4 text-gray-400 cursor-pointer" />
             </strong>
-            <div className="flex grid-cols-2">
+            <div className="flex grid-cols-2 mt-5">
               <li className="text-black text-[20px] font-bold mt-0 p-0" />
               <p className="text-left text-[13px] font-[500] mt-1">
                 Click the "Enroll Now" button, make the payment, and get instant
@@ -490,7 +490,7 @@ const DigitalArtCourse = () => {
         </div>
       </div>
 
-      <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-4 py-2 rounded-lg font-semibold text-[14px] w-[50%] mt-10">
+      <button className="bg-gradient-to-r from-blue-600 via-purple-700 to-pink-500 text-white px-4 py-2 rounded-lg font-semibold text-[14px] w-[50%] mt-10">
         Let's Get Started
       </button>
 
@@ -503,7 +503,7 @@ const DigitalArtCourse = () => {
       </h2>
 
       {/* CTA Section */}
-      <button className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white px-6 py-2 rounded-lg w-[50%] font-bold text-[15px] mb-8">
+      <button className="bg-gradient-to-r from-blue-600 via-purple-700 to-pink-500 text-white px-6 py-2 rounded-lg w-[50%] font-bold text-[15px] mb-8">
         Enroll Now
       </button>
     </div>
