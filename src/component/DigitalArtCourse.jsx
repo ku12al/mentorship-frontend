@@ -119,7 +119,7 @@ const DigitalArtCourse = () => {
     <div className="max-w-[28rem] h-screen text-center space-y-4 absolute left-0 ">
       <div className="flex justify-between mr-6 mt-1">
         <div className="ml-5">
-          <img src="/Screenshot 2025-03-11 114802.png" alt="" className="w-[90%]"/>
+          <img src="/Screenshot 2025-03-11 114802.png" alt="" className="w-[85%]"/>
         </div>
         <div className="w-[40%] flex justify-center item-center rounded-full bg-gradient-to-r from-blue-700 to-pink-500">
           <button className="font-semibold text-[18px] text-white my-1 ">
@@ -159,7 +159,7 @@ const DigitalArtCourse = () => {
             Use a coupon code within 15 minutes to unlock a special bonus pack!
           </p>
           <br />
-          <div className="w-full  bg-gradient-to-b via-[#cce1eb] to-transparent h-[270px]  p-2 ">
+          <div className="w-full  bg-gradient-to-b via-[#86cdee72] to-transparent h-[270px]  p-2 ">
             <h1 className="text-[21px] font-semibold bg-gradient-to-r from-gray-950 to-gray-600 text-transparent bg-clip-text text-center">
               Without Proper Training, You Might:
             </h1>
