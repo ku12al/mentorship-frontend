@@ -178,8 +178,7 @@ const DigitalArtCourse = () => {
                   </p>
                   {index === 2 && (
                     <ImCross className="text-red-500 absolute top-8 left-13" />
-                  )}{" "}
-                  {/* Cross on Last Item */}
+                  )}
                 </div>
               ))}
             </div>
